@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de tareas</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main class="app">
+    <header class="app__header">
+      <h1>Lista de tareas</h1>
+      <p class="app__subtitle">Laboratorio HTML, CSS y JS</p>
+    </header>
+
+    <section class="todo">
+      <form class="todo__form" id="todo-form">
+        <input
+          type="text"
+          id="task-input"
+          class="todo__input"
+          placeholder="Escribe una tarea..."
+          aria-label="Escribe una tarea"
+        >
+        <button type="submit" class="todo__button">Agregar</button>
+      </form>
+
+      <p id="error-message" class="todo__error"></p>
+
+      <section class="todo__info">
+        <p>Tareas pendientes: <span id="pending-count">0</span></p>
+      </section>
+
+      <section class="todo__list-container">
+        <ul id="task-list" class="todo__list"></ul>
+      </section>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
