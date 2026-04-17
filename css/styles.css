@@ -146,7 +146,6 @@ body {
   gap: 12px;
 }
 
-/* ITEM */
 .todo__item {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid var(--border);
@@ -166,7 +165,6 @@ body {
   background: rgba(255, 255, 255, 0.08);
 }
 
-/* TEXTO */
 .todo__task {
   color: var(--text);
 }
@@ -207,14 +205,13 @@ body {
   background: linear-gradient(135deg, #ef4444, #f87171);
 }
 
-/* VACÍO */
 .todo__empty {
   text-align: center;
   color: var(--muted);
   padding: 15px;
 }
 
-/* ANIMACIONES */
+
 @keyframes fadeIn {
   from {
     opacity: 0;
