@@ -64,6 +64,7 @@ body {
   color: var(--text);
 
   background: linear-gradient(90deg, #a78bfa, #22d3ee);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -211,7 +212,7 @@ body {
   padding: 15px;
 }
 
-
+/* ANIMACIONES */
 @keyframes fadeIn {
   from {
     opacity: 0;
